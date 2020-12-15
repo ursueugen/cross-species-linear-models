@@ -2,10 +2,10 @@
 
 To reproduce the linear analysis:
 
-1) Get the genes and genesets datasets data from the link below. There can be found 2 folders for generating the genes (XSPECIES_GENES) and genesets (XSPECIES_GENESETS_KEGG) datasets, respectively.
+1) Get the genes and genesets datasets data from the link below. There can be found 2 folders for generating the genes `XSPECIES_GENES` and genesets `XSPECIES_GENESETS_KEGG` datasets, respectively.
 https://drive.google.com/drive/folders/16UI0VxdwCNrHZ1gRmhpZBJK1t-oJk2Ji?usp=sharing
 
-2) Install and activate the environment necessary for running the code:
+2) Install and activate the environment necessary for running the code.
 
 ```bash
 conda env create -f environment.yml
@@ -27,4 +27,4 @@ python linearmodels.py --type_input genesets extract-results OUTPUT_PATH_FOR_GEN
 python linearmodels.py --help
 ```
 
-4) Explore the results in OUTPUT_PATH_GENES_SUMMARY_DIR and OUTPUT_PATH_GENESETS_SUMMARY_DIR.
+4) Explore the results in `OUTPUT_PATH_GENES_SUMMARY_DIR` and `OUTPUT_PATH_GENESETS_SUMMARY_DIR`.
